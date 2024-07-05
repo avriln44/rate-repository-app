@@ -18,7 +18,7 @@ const Main = () => {
     <View style={styles.container}>
       <AppBar />
       <Routes>
-        <Route path="/repository" element={<RepositoryList />} />
+        <Route path="/repositories" element={<RepositoryList />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
